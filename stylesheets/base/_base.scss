@@ -122,9 +122,9 @@ body {
     }
 
     &_service {
-        display: flex;
         background: #EDF2EC;
         padding-bottom: 50px;
+        max-width: 1440px;
         h2 {
             padding-top: 10px;
             background: #EDF2EC;
@@ -152,5 +152,13 @@ body {
             border: 1px solid #E06733;
         }
 
+    }
+    &_box {
+        display: flex;
+        padding-bottom: 54px;
+    }
+    &_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

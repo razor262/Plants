@@ -413,9 +413,9 @@ template {
   padding-top: 92px;
 }
 .section_service {
-  display: flex;
   background: #EDF2EC;
   padding-bottom: 50px;
+  max-width: 1440px;
 }
 .section_service h2 {
   padding-top: 10px;
@@ -440,6 +440,14 @@ template {
   border-radius: 4px;
   color: #E06733;
   border: 1px solid #E06733;
+}
+.section_box {
+  display: flex;
+  padding-bottom: 54px;
+}
+.section_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @font-face {
