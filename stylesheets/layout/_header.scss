@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: #EDF2EC;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    &_logo {
+        padding-right: 540px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 110px;
+    }
+    
+    &_navigation {
+        display: flex;
+        align-items: center;
+    }
+    
+    &_ul {
+        margin-top: 38px;
+    }
+    &_navbar {
+        display: flex;
+    }
+    &_li {
+        display: inline-block;
+        padding: 0 24px;
+    }
+    &_link {
+        text-decoration: none;
+        color: #010201;
+    }
+
+}
+.active {
+    color: #E06733;
+}

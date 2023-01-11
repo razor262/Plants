@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+// конфигурации, переменные и мелочи
+@import '../stylesheets/abstracts/variables';
+
+// нормалайз
+@import '../stylesheets/vendors/normalize';
+
+// база и шрифты
+@import '../stylesheets/base/base';
+@import '../stylesheets/base/fonts';
+
+// кнопки и шаблоны
+@import '../stylesheets/components/buttons';
+
+// хедер и футер
+@import '../stylesheets/layout/footer';
+@import '../stylesheets/layout/header';
+
+// страницы, если есть
+@import '../stylesheets/pages/home';
+
+// темы (светлая, темная)
+@import '../stylesheets/themes/default';
