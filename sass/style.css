@@ -448,6 +448,16 @@ template {
 .section_content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 55px 116px;
+  padding-bottom: 70px;
+}
+.section_tablet {
+  border: 1px solid #E3E1D5;
+  background: #E06733;
+  justify-items: center;
+  width: 330px;
+  height: 450px;
+  text-align: center;
 }
 
 @font-face {
