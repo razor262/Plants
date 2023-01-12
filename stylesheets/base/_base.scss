@@ -161,7 +161,9 @@
     gap: 55px 116px;
     padding-bottom: 70px;
   }
-
+  &_tablet:hover {
+    transform: scale(1.2);
+   }
   &_tablet {
     border: 1px solid #e3e1d5;
     //background: #E06733;
@@ -170,6 +172,7 @@
     height: 450px;
     text-align: center;
     border-radius: 20px;
+    transition: 1s;
 
     h3 {
       font-family: "Inter";

@@ -13,11 +13,21 @@ button {
     line-height: 26px;
     //margin-right: 39px;
     //margin-top: 68px;
-    
+
     width: 160px;
     height: 51px;
     border-radius: 4px;
     color: #E06733;
     border: 1px solid #E06733;
     cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #E06733;
+    opacity: 2s;
+    transform: scale(1.2);
+    transition: opacity 2s cubic-bezier(0.4, 0, 0.2, 1) 3s;
+
 }

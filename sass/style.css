@@ -451,6 +451,9 @@ template {
   gap: 55px 116px;
   padding-bottom: 70px;
 }
+.section_tablet:hover {
+  transform: scale(1.2);
+}
 .section_tablet {
   border: 1px solid #e3e1d5;
   justify-items: center;
@@ -458,6 +461,7 @@ template {
   height: 450px;
   text-align: center;
   border-radius: 20px;
+  transition: 1s;
 }
 .section_tablet h3 {
   font-family: "Inter";
@@ -616,6 +620,15 @@ button {
   color: #E06733;
   border: 1px solid #E06733;
   cursor: pointer;
+  transition: 1s;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #E06733;
+  opacity: 2s;
+  transform: scale(1.2);
+  transition: opacity 2s cubic-bezier(0.4, 0, 0.2, 1) 3s;
 }
 
 .footer {
