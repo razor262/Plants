@@ -331,12 +331,12 @@ template {
   max-width: 1440px;
   padding: 0 110px;
   /*
-    &_imageleafs {
+      &_imageleafs {
 
-    }
-    &_right {
+      }
+      &_right {
 
-    }*/
+      }*/
 }
 .section_welcome {
   background: #edf2ec;
@@ -372,7 +372,7 @@ template {
   text-transform: uppercase;
   width: 158px;
   height: 44px;
-  border: 2px solid #E06733;
+  border: 2px solid #e06733;
   border-radius: 10px;
 }
 .section_about {
@@ -391,10 +391,10 @@ template {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  color: #E06733;
+  color: #e06733;
 }
 .section_lefttwo h2 span {
-  color: #499A18;
+  color: #499a18;
 }
 .section_lefttwo p {
   padding-top: 0px;
@@ -413,18 +413,18 @@ template {
   padding-top: 92px;
 }
 .section_service {
-  background: #EDF2EC;
+  background: #edf2ec;
   padding-bottom: 50px;
   max-width: 1440px;
 }
 .section_service h2 {
   padding-top: 10px;
-  background: #EDF2EC;
+  background: #edf2ec;
   font-family: "Inika";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  color: #499A18;
+  color: #499a18;
   padding-right: 158px;
 }
 .section_service button {
@@ -438,8 +438,8 @@ template {
   width: 160px;
   height: 51px;
   border-radius: 4px;
-  color: #E06733;
-  border: 1px solid #E06733;
+  color: #e06733;
+  border: 1px solid #e06733;
 }
 .section_box {
   display: flex;
@@ -452,11 +452,112 @@ template {
   padding-bottom: 70px;
 }
 .section_tablet {
-  border: 1px solid #E3E1D5;
-  background: #E06733;
+  border: 1px solid #e3e1d5;
   justify-items: center;
   width: 330px;
   height: 450px;
+  text-align: center;
+  border-radius: 20px;
+}
+.section_tablet h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 2px;
+  color: #e06733;
+}
+.section_tablet p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+}
+.section_prices {
+  display: flex;
+  justify-content: space-between;
+}
+.section_myprices {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #000000;
+  width: 50%;
+  margin-bottom: 96px;
+}
+.section_helpyou {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 55px;
+  width: 50%;
+  text-align: right;
+  color: #000000;
+}
+.section button {
+  margin-left: 10px;
+}
+.section span {
+  color: #499a18;
+}
+.section_pricesitem {
+  width: 332px;
+  height: 282px;
+  border: 1px solid #717171;
+  border-radius: 22px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+}
+.section select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url("../../images/accordion_btn.svg");
+  width: 250px;
+  margin-bottom: 37px;
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  border: 0px;
+  color: #000000;
+  background: #edf2ec;
+  padding: 15px 5px 15px 34px;
+  cursor: pointer;
+}
+
+.leafs {
+  width: 152px;
+}
+
+.contentsection {
+  margin-left: 440px;
+}
+.contentsection_leafs {
+  margin-top: 28px;
+}
+
+.section_contacts {
+  background: #edf2ec;
+}
+.section_contacts h2 {
+  padding-top: 60px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
   text-align: center;
 }
 
@@ -483,23 +584,20 @@ template {
   border-radius: 10px;
 }
 
-/*
 button {
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    margin-right: 39px;
-    margin-top: 68px;
-
-    width: 160px;
-    height: 51px;
-    border-radius: 4px;
-    color: #E06733;
-    border: 1px solid #E06733;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  width: 160px;
+  height: 51px;
+  border-radius: 4px;
+  color: #E06733;
+  border: 1px solid #E06733;
+  cursor: pointer;
 }
-*/
+
 .header {
   display: flex;
   justify-content: space-between;
