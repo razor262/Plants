@@ -234,7 +234,9 @@
   }
   select {
     appearance: none;
-    background: url("../../images/arrow-grey-btn.svg");
+    background: url("../images/arrow-grey-btn.svg") no-repeat 92% center;
+    outline: 0;
+    background-color: #edf2ec;
     width: 250px;
     margin-bottom: 37px;
     border-radius: 15px;
@@ -246,7 +248,6 @@
     border: 0px;
 
     color: #000000;
-    background: #edf2ec;
     padding: 15px 5px 15px 34px;
     cursor: pointer;
   }
@@ -280,10 +281,11 @@
       margin-top: 20px;
       margin-left: 370px;
       width: 450px;
-      background: #d6e7d2;
       color: #aea1a1;
       border: none;
-
+      background: url(../images/arrow-grey-btn.svg) no-repeat 92% center;
+      outline: 0;
+      background-color: #d6e7d2;
       font-family: "Inter";
       font-style: normal;
       font-weight: 400;

@@ -520,7 +520,9 @@ template {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url("../../images/arrow-grey-btn.svg");
+  background: url("../images/arrow-grey-btn.svg") no-repeat 92% center;
+  outline: 0;
+  background-color: #edf2ec;
   width: 250px;
   margin-bottom: 37px;
   border-radius: 15px;
@@ -531,7 +533,6 @@ template {
   line-height: 20px;
   border: 0px;
   color: #000000;
-  background: #edf2ec;
   padding: 15px 5px 15px 34px;
   cursor: pointer;
 }
@@ -565,9 +566,11 @@ template {
   margin-top: 20px;
   margin-left: 370px;
   width: 450px;
-  background: #d6e7d2;
   color: #aea1a1;
   border: none;
+  background: url(../images/arrow-grey-btn.svg) no-repeat 92% center;
+  outline: 0;
+  background-color: #d6e7d2;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -613,6 +616,55 @@ button {
   color: #E06733;
   border: 1px solid #E06733;
   cursor: pointer;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.navigation {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1222px;
+  margin: 0 auto;
+}
+.navigation_year {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+}
+.navigation_year a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+.navigation_rss {
+  padding-left: 57px;
+  align-content: center;
+}
+.navigation_rss a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+.navigation_social {
+  display: flex;
+  justify-content: space-between;
+  width: 228px;
+}
+
+.footer_li {
+  list-style: none;
 }
 
 .header {

@@ -1,0 +1,48 @@
+.footer {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.navigation {
+    padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1222px;
+  margin: 0 auto;
+  &_year {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    a {
+      text-decoration: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 50px;
+
+      color: #000000;
+    }
+  }
+  &_rss {
+    padding-left: 57px;
+    align-content: center;
+    a {
+      text-decoration: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 50px;
+
+      color: #000000;
+    }
+  }
+  &_social {
+    display: flex;
+    justify-content: space-between;
+    width: 228px;
+  }
+}
+.footer_li {
+  list-style: none;
+}
