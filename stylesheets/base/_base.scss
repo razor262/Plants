@@ -202,7 +202,7 @@
     line-height: 48px;
     color: #000000;
     width: 50%;
-    margin-bottom: 96px;
+    margin-bottom: 128px;
   }
   &_helpyou {
     font-family: "Inter";
@@ -234,7 +234,7 @@
   }
   select {
     appearance: none;
-    background: url("../../images/accordion_btn.svg");
+    background: url("../../images/arrow-grey-btn.svg");
     width: 250px;
     margin-bottom: 37px;
     border-radius: 15px;
@@ -263,17 +263,35 @@
 .section {
   &_contacts {
     background: #edf2ec;
-    
+    display: flex;
+    padding-top: 53px;
+
     h2 {
-      padding-top: 60px;
       font-family: "Inika";
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
-      line-height: 52px;
+      line-height: 4px;
 
       color: #499a18;
-      text-align: center;
+      margin-left: 113px;
+    }
+    select {
+      margin-top: 20px;
+      margin-left: 370px;
+      width: 450px;
+      background: #d6e7d2;
+      color: #aea1a1;
+      border: none;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+      border-radius: 0px;
+      padding: 10px 5px 10px 34px;
+      box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     }
   }
 }
