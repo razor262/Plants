@@ -202,7 +202,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
-    line-height: 48px;
+    line-height: 37px;
     color: #000000;
     width: 50%;
     margin-bottom: 128px;
@@ -300,3 +300,388 @@
     }
   }
 }
+@media (max-width:768px) {
+
+.section {
+  /*
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 110px;
+  */
+  //cursor: default;
+
+  &_welcome {
+    padding: 0 46px;
+    /*
+    background: #edf2ec;
+    display: flex;
+    */
+  }
+
+
+  &_left {
+    order: 2;
+    
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    
+  }
+
+  
+  &_imageleafs {
+    width: 261px;
+    padding-top: 28px;
+  }
+  &_right {
+    width: 417px;
+  }
+
+  &_item {
+    
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    color: #717171;
+    
+  }
+
+  &_spans {
+    /*
+    color: #499a18;
+    */
+  }
+
+
+  &_mytext {
+    
+    padding-bottom: 39px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #636060;
+    
+  }
+
+  &_mybutton {
+    margin-bottom: 70px;
+    /*
+    text-transform: uppercase;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #e06733;
+    border-radius: 10px;
+    */
+  }
+
+  &_about {
+    
+    display: flex;
+    flex-wrap: wrap;
+    /*
+    justify-content: space-between;
+    */
+  }
+
+  &_lefttwo {
+    /*
+    padding-bottom: 100px;
+    max-width: 588px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    h2 {
+      
+      padding-left: 90px;
+      padding-right: 10px;
+      padding-top: 5px;
+      
+      padding-bottom: 22px;
+      
+      font-family: "Inika";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 50px;
+      color: #e06733;
+      
+
+      span {
+        /*
+        color: #499a18;
+        */
+      }
+    }
+
+    p {
+      
+      padding-top: 0px;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #636060;
+      
+    }
+  }
+
+  &_righttwo {
+    /*
+    padding-bottom: 92px;
+    */
+  }
+
+  &_rightimage {
+    width: 250px;
+    padding-top: 53px;
+    margin-left: 152px;
+  }
+
+  &_service {
+    /*
+    background: #edf2ec;
+    padding-bottom: 50px;
+    max-width: 1440px;
+    */
+    padding: 0 50px;
+
+    h2 {
+      
+      padding-top: 25px;
+      padding-bottom: 9px
+      /*
+      background: #edf2ec;
+      font-family: "Inika";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      color: #499a18;
+      padding-right: 158px;
+      */
+    }
+
+    button {
+      margin-top: 0px;
+      margin-left: 0px;
+      
+      /*
+      font-family: "Inika";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      margin-right: 39px;
+
+      width: 160px;
+      height: 51px;
+      border-radius: 4px;
+      color: #e06733;
+      border: 1px solid #e06733;
+      */
+    }
+  }
+
+  &_box {
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding-bottom: 38px;
+    
+    div {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+  }
+
+  &_content {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 38px 107px;
+    /*
+    padding-bottom: 70px;
+    */
+  }
+  &_tablet:hover {
+    /*
+    transform: scale(1.2);
+    */
+   }
+  &_tablet {
+    
+    border: 1px solid #e3e1d5;
+    //background: #E06733;
+    justify-items: center;
+    width: 280px;
+    height: 451px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 1s;
+  
+    h3 {
+      /*
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 37px;
+      color: #e06733;
+      */
+    }
+
+    p {
+      /*
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+
+      color: #717171;
+      */
+    }
+  }
+  &_imagetablet {
+    width: 280px;
+    height: 350px;
+  }
+  &_prices {
+    padding: 0 52px;
+    /*
+    display: flex;
+    justify-content: space-between;
+    */
+  }
+  &_myprices {
+    margin-bottom: 163px;
+    /*
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #000000;
+    width: 50%;
+
+    */
+  }
+  &_helpyou {
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 38px;
+    width: 50%;
+
+    text-align: right;
+    color: #000000;
+    padding-top: 113px;
+  }
+  button {
+    /*
+    margin-left: 10px;
+    */
+  }
+  span {
+    /*
+    color: #499a18;
+    */
+  }
+  &_pricesitem {
+    /*
+    width: 332px;
+    height: 282px;
+    border: 1px solid #717171;
+    border-radius: 22px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    */
+  }
+  select {
+    /*
+    appearance: none;
+    background: url("../images/arrow-grey-btn.svg") no-repeat 92% center;
+    outline: 0;
+    background-color: #edf2ec;
+    width: 250px;
+    margin-bottom: 37px;
+    border-radius: 15px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    border: 0px;
+
+    color: #000000;
+    padding: 15px 5px 15px 34px;
+    cursor: pointer;
+    */
+  }
+}
+.leafs {
+  /*
+  width: 152px;
+  */
+}
+.contentsection {
+  
+  margin-left: 0px;
+  /*
+  &_leafs {
+    margin-top: 28px;
+  */
+  }
+}
+.section {
+  &_contacts {
+    /*
+    background: #edf2ec;
+    display: flex;
+    padding-top: 53px;
+    */
+    h2 {
+      /*
+      font-family: "Inika";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 4px;
+
+      color: #499a18;
+      margin-left: 113px;
+      */
+    }
+    select {
+      /*
+      margin-top: 20px;
+      margin-left: 370px;
+      width: 450px;
+      color: #aea1a1;
+      border: none;
+      background: url(../images/arrow-grey-btn.svg) no-repeat 92% center;
+      outline: 0;
+      background-color: #d6e7d2;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+      border-radius: 0px;
+      padding: 10px 5px 10px 34px;
+      box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+      */
+    }
+  }
+}
+/*
+}
+*/
