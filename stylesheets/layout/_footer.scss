@@ -1,12 +1,12 @@
 .footer {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 768px;
 }
 .navigation {
-    padding-top: 35px;
+  padding-top: 5px;
   display: flex;
-  justify-content: space-between;
-  max-width: 1222px;
+  flex-direction: column;
+  width: 220px;
   margin: 0 auto;
   &_year {
     display: flex;
@@ -24,7 +24,7 @@
     }
   }
   &_rss {
-    padding-left: 57px;
+    padding-left: 0px;
     align-content: center;
     a {
       text-decoration: none;
@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     width: 228px;
+    padding-left: 0px;
   }
 }
 .footer_li {

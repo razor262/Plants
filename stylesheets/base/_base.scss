@@ -642,13 +642,32 @@
   }
 }
 .section {
+  &_left1 {
+    order: 2;
+    margin: 0 auto;
+    img {
+      width: 230px;
+      padding-top: 180px;
+    }
+  }
+  &_right1 {
+    margin: 0 auto;
+
+  }
   &_contacts {
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0px;
+
     /*
     background: #edf2ec;
     display: flex;
     padding-top: 53px;
     */
     h2 {
+      padding-top: 22px;
+      padding-bottom: 66px;
       /*
       font-family: "Inika";
       font-style: normal;
@@ -661,9 +680,9 @@
       */
     }
     select {
+      margin-left: 0px;
       /*
       margin-top: 20px;
-      margin-left: 370px;
       width: 450px;
       color: #aea1a1;
       border: none;
