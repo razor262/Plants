@@ -36,10 +36,16 @@
     text-decoration: none;
     color: #010201;
   }
+  &_link:hover {
+    color: #e06733;
+    transition: all 0.4s;
+  }
 }
+/*
 .active {
   color: #e06733;
 }
+*/
 @media (max-width: 768px) {
   .header {
     max-width: 768px;
