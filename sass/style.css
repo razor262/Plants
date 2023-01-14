@@ -360,7 +360,7 @@ template {
   color: #499a18;
 }
 .section_mytext {
-  padding-bottom: 28px;
+  padding-bottom: 39px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -628,7 +628,7 @@ template {
     */
   }
   .section_mytext {
-    padding-bottom: 39px;
+    padding-bottom: 13px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -813,9 +813,7 @@ template {
     padding-top: 113px;
   }
   .section button {
-    /*
-    margin-left: 10px;
-    */
+    margin-left: 4px;
   }
   .section span {
     /*
@@ -1047,14 +1045,16 @@ button:hover {
   align-items: center;
 }
 .header_ul {
-  margin-top: 38px;
+  padding-top: 34px;
+  margin-bottom: 0px;
 }
 .header_navbar {
   display: flex;
+  width: 452px;
 }
 .header_li {
   display: inline-block;
-  padding: 0 24px;
+  padding: 0 18px;
 }
 .header_link {
   text-decoration: none;
@@ -1091,5 +1091,6 @@ button:hover {
   }
   .header_ul {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 }/*# sourceMappingURL=style.css.map */

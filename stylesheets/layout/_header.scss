@@ -20,17 +20,20 @@
   &_navigation {
     display: flex;
     align-items: center;
+
   }
 
   &_ul {
-    margin-top: 38px;
+    padding-top: 34px;
+    margin-bottom: 0px;
   }
   &_navbar {
     display: flex;
+    width: 452px;
   }
   &_li {
     display: inline-block;
-    padding: 0 24px;
+    padding: 0 18px;
   }
   &_link {
     text-decoration: none;
@@ -67,6 +70,7 @@
       }
     &_ul {
         margin-top: 0px;
+        margin-bottom: 0px;
       }
   }
 }
