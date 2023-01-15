@@ -47,3 +47,8 @@
 .footer_li {
   list-style: none;
 }
+@media (max-width:380px) {
+  .footer {
+    background-color: #fff;
+  }
+}

@@ -617,6 +617,7 @@
     }
 
     &_about {
+      background-color: #fff;
       padding: 10px 35px 10px 35px;
       display: flex;
       flex-wrap: wrap;
@@ -737,6 +738,7 @@
     }
 
     &_prices {
+      background-color: #fff;
       padding: 0 52px;
       display: flex;
       flex-direction: column;
@@ -832,6 +834,7 @@
   }
 
   &_contacts {
+    padding: 0px;
     max-width: 768px;
     display: flex;
     flex-wrap: nowrap;

@@ -792,6 +792,7 @@ template {
     margin-bottom: 70px;
   }
   .section_about {
+    background-color: #fff;
     padding: 10px 35px 10px 35px;
     display: flex;
     flex-wrap: wrap;
@@ -882,6 +883,7 @@ template {
     height: 350px;
   }
   .section_prices {
+    background-color: #fff;
     padding: 0 52px;
     display: flex;
     flex-direction: column;
@@ -950,6 +952,7 @@ template {
   margin: 0 auto;
 }
 .section_contacts {
+  padding: 0px;
   max-width: 768px;
   display: flex;
   flex-wrap: nowrap;
@@ -1071,6 +1074,11 @@ button:hover {
   list-style: none;
 }
 
+@media (max-width: 380px) {
+  .footer {
+    background-color: #fff;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
