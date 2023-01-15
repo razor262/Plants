@@ -792,6 +792,7 @@ template {
     margin-bottom: 70px;
   }
   .section_about {
+    padding: 10px 35px 10px 35px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -800,38 +801,47 @@ template {
     padding-bottom: 0px;
   }
   .section_lefttwo h2 {
-    padding-left: 90px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 22px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    text-align: center;
     font-family: "Inika";
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 25px;
+    line-height: 30px;
     color: #e06733;
   }
   .section_lefttwo p {
+    margin-bottom: 0px;
     padding-top: 0px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
     color: #636060;
   }
+  .section_righttwo {
+    padding-bottom: 10px;
+  }
   .section_rightimage {
-    width: 250px;
-    padding-top: 53px;
-    margin-left: 152px;
+    width: 150px;
+    padding-top: 4px;
+    margin-left: 78px;
   }
   .section_service {
-    padding: 0 50px;
+    padding: 0 25px;
   }
   .section_service h2 {
-    padding-top: 25px;
-    padding-bottom: 9px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin: 0px;
+    font-size: 25px;
+    line-height: 32px;
+    padding-right: 0px;
   }
   .section_service button {
     margin-top: 0px;
@@ -840,18 +850,20 @@ template {
   .section_box {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 38px;
+    padding-bottom: 25px;
   }
   .section_box div {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   .section_content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 38px 107px;
+    grid-template-columns: 1fr;
+    gap: 32px 50px;
+    padding-bottom: 31px;
   }
   .section_tablet {
+    margin: 0 auto;
     border: 1px solid #e3e1d5;
     justify-items: center;
     width: 280px;
@@ -860,30 +872,70 @@ template {
     border-radius: 20px;
     transition: 1s;
   }
+  .section_tablet p {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 15px;
+  }
   .section_imagetablet {
     width: 280px;
     height: 350px;
   }
   .section_prices {
     padding: 0 52px;
+    display: flex;
+    flex-direction: column;
   }
   .section_myprices {
-    margin-bottom: 163px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .section_myprices h3 {
+    text-align: center;
   }
   .section_helpyou {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 38px;
-    width: 50%;
-    text-align: right;
+    font-size: 14px;
+    line-height: 34px;
+    width: 100%;
+    text-align: center;
     color: #000000;
-    padding-top: 113px;
+    padding-top: 0px;
   }
   .section button {
-    margin-left: 4px;
+    margin-top: 0.5px;
+    margin-right: 2px;
+    width: 121px;
+    height: 34px;
+    border-radius: 3px;
+    margin-left: 0px;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 13px;
+  }
+  .section_pricesitem {
+    margin: 0 auto;
+    width: 223px;
+    height: 237px;
+    margin-top: 28px;
+  }
+  .section select {
+    width: 180px;
+    margin-bottom: 13px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
   }
   .contentsection {
+    height: 73px;
     margin-left: 0px;
+  }
+  .contentsection_leafs {
+    display: none;
   }
 }
 .section_left1 {
@@ -891,8 +943,8 @@ template {
   margin: 0 auto;
 }
 .section_left1 img {
-  width: 230px;
-  padding-top: 180px;
+  width: 100px;
+  padding-top: 132px;
 }
 .section_right1 {
   margin: 0 auto;
@@ -900,15 +952,20 @@ template {
 .section_contacts {
   max-width: 768px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding-top: 0px;
+  flex-direction: column;
 }
 .section_contacts h2 {
   padding-top: 22px;
-  padding-bottom: 66px;
+  padding-bottom: 52px;
+  font-size: 25px;
+  margin-left: 0px;
+  text-align: center;
 }
 .section_contacts select {
   margin-left: 0px;
+  width: 300px;
 }
 
 @font-face {
@@ -957,6 +1014,13 @@ button:hover {
   transition: opacity 2s cubic-bezier(0.4, 0, 0.2, 1) 3s;
 }
 
+/*
+@media (max-width:380px) {
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+}
+*/
 .footer {
   margin: 0 auto;
   max-width: 768px;
@@ -1188,8 +1252,4 @@ button:hover {
 .work {
   right: -182px;
   position: absolute;
-}
-
-/*
-}
-*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
