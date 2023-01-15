@@ -88,8 +88,9 @@
         /*
         position:relative;
         */
-        margin:100px auto;
+        margin:32px auto;
         width:50px;
+        margin-left: 130px;
     }
     
     
@@ -100,11 +101,11 @@
     
     
     #burger span{
-        background: #ff216a;
+        background: #717171;
         display:block;
-        width:100px;
-        height:14px;
-        margin-bottom: 10px;
+        width:40px;
+        height:5px;
+        margin-bottom: 3px;
         position: relative;
         top:0;
         transition: all ease-in-out 0.4s;  
@@ -169,6 +170,9 @@
     //background-color: #e06733;
     color: #010201;
     &_logo {
+        margin-left: 20px;
+        width: 152px;
+        line-height: 19px;
         /*
         padding-right: 62px;
         padding-top: 35px;
@@ -177,9 +181,7 @@
         */
       }
     &_navigation {
-      /*
-        padding-top: 0px;
-        */
+              
       }
     &_ul {
       position:absolute;
@@ -193,7 +195,7 @@
         */
       }
       &_navbar {
-        margin-left: 620px;
+        margin-left: 630px;
         background-color: rebeccapurple;
         flex-direction: column;
       }
